@@ -1,0 +1,371 @@
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+c:\users\bruno\onedrive\documentos\visual studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb
+D:\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+D:\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+D:\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+D:\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+D:\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+D:\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+D:\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+D:\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+D:\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+D:\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+C:\Users\Dexter\Documents\Visual Studio 2015\Projects\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+C:\Users\Aluno\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+D:\kaw\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+D:\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+D:\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+D:\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+C:\Users\Dexter\Desktop\kaw\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\ApplicationInsights.config
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\csc.exe
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\vbc.exe
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll.config
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\ControlePizzaria.web.pdb
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\WebGrease.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.Web.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Helpers.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Mvc.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Optimization.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.Razor.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Antlr3.Runtime.pdb
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\bin\Newtonsoft.Json.xml
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.csprojResolveAssemblyReference.cache
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.dll
+C:\Users\Dexter\Desktop\TP\ControlePizzaria\ControlePizzaria.web\obj\Debug\ControlePizzaria.web.pdb

@@ -1,0 +1,378 @@
+﻿
+@{
+    ViewBag.Title = "Pedidos";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width" />
+    <title>Pedidos</title>
+    <link rel="stylesheet" media="print" href="~/Content/Impressao.css">
+</head>
+<body>
+    <h3>Pedidos</h3>
+    <hr />
+    <div class="row">
+        <div class="col-lg-6">
+            <h4 style="font-weight:bold">Desde 2005, a nossa Pizzaria vêm trazendo inovações e satisfação à seus clientes, proporcionando sempre um ambiente tranquilo, 
+                aconchegante e de muito estilo.
+                Apresentamos nossas maravilhosas redondas sempre recheadas com uma diversificação de sabores e aromas.
+                As massas tradicionalmente artesanais, são preparadas com ingredientes especiais e de primeira qualidade, 
+                vão ao forno com espessura fina, deixando sempre uma textura crocante e de incrível sabor. O molho de tomates frescos e suas ervas finas, trazem a essência das melhores pizzas do mundo.</h4>
+        </div>
+        <div class="col-lg-6">
+            <img style="width:60%" src="~/img/pizza1.jpg"/>
+        </div>
+    </div><hr />
+    <div id="cabecalho">
+        <a id="btn_incluir" class="btn btn-success" role="button">
+            <i class="glyphicon glyphicon-plus"></i> Realizar Pedido
+        </a>
+      
+    </div>
+
+    <br />
+
+    <div>
+        <table id="grid_categoria" class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Cliente</th>
+                    <th>Pedido</th>
+                    <th>Local</th>
+                    <th>Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody class="impressao" id="impressao" name="impressao" >
+                @foreach (var Pedidos in ViewBag.Pedidos)
+                {
+                    <tr data-id="@Pedidos.Id">
+                        <td>@Pedidos.Id</td>
+                        <td>@Pedidos.Nome</td>
+                        <td>@Pedidos.Pedido</td>
+                        <td>@Pedidos.Local</td>
+                        <td>$@Pedidos.Total</td>
+                        <td>
+                           
+                                <a class="btn btn-primary btn-alterar" role="button">
+                                    <i class="glyphicon glyphicon-pencil"></i>
+                                    Alterar
+                                </a>
+                                <a class="btn btn-danger btn-excluir" role="button">
+                                    <i class="glyphicon glyphicon-trash"></i>
+                                    Excluir
+                                </a>
+                                <a  id="printBy" onclick="imprimir()" class="btn btn-primary" role="button">
+                                    <i class="glyphicon glyphicon-floppy-saved"></i> Imprimir
+                                </a>
+                           
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div id="modal_cadastro" class="form-horizontal invisivel" role="dialog">
+        <fieldset>
+            <div class="row">
+                <div class="form-group">
+                    @Html.Label("txt_codigo", "Codigo", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBox("txt_codigo", null, new { @class = "form-control", disabled = "true" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_cliente", "Cliente", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9"> 
+                        <select id="id_cliente" class="form-control">
+                            <option>Escolha uma opção...</option>
+                            @foreach (var c in ViewBag.Clientes)
+                            {   
+                                <option id="opt" class="clientes" value="@c.Id" data-nome="@c.Nome" data-end="@c.End" data-num="@c.Numr" data-compl="@c.Compl" data-bairro="@c.Bairro" data-cidade="@c.Cidade">@c.Nome</option>
+                            }
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_pedido", "Pedido", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        <div id="id_product">
+                            @foreach (var p in ViewBag.Produtos)
+                            {
+                                <input id="productname" class="produtos" type="checkbox" name="produtos[]" value="@p.Id" data-nome="@p.Nome" data-preco="@p.Preco" /> <input class="produtos btn btn-primary" id="Mais" type="button" name="produtos[]" value="+" data-preco="@p.Preco" /> <input type="button" name="produtos[]" value="-" data-preco="@p.Preco" id="Menos" class="produtoss btn btn-danger">
+
+                                @p.Nome<br />
+                            }<br />
+                       </div>
+
+                    </div>
+                    <br>
+                    <br/>
+                    @Html.Label("txt_local", "Local:", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_local", null, new { @class = "form-control", disabled = "true" })<br />
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_total", "Total:", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_total", null, new { @class = "form-control", disabled = "true" })<br />
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_item", "Item:", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_item", null, new { @class = "form-control", disabled = "true" })<br />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="modal-footer">
+                           
+                            <a id="btn_confirmar" class="btn btn-primary" role="button">
+                                <i class="glyphicon glyphicon-ok"></i>
+                                Salvar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+        <div id="myAlert" class="alert alert-success collapse">
+            <a id="linkClose" href="#" class="close">&times;</a>
+            <strong>Novo!</strong> Pedido adicionado com sucesso!
+        </div>
+
+    @section Scripts{
+        <script>
+            function abrir_form(dados) {
+               
+                if (dados.Id > 0) {
+                    $('#txt_codigo').val(dados.Id);
+                }
+                else {
+                $('txt_codigo').val('');
+                $('#txt_cliente').val(dados.Nome); 
+                $('#txt_pedido').val(dados.Pedido);
+                $('#txt_local').val(dados.Local);
+                $('#txt_total').val(dados.Total);
+                }
+                var modal_cadastro = $('#modal_cadastro');
+
+                bootbox.dialog({
+                    title: '@ViewBag.Title',
+                    message: modal_cadastro
+                })
+                .on('shown.bs.modal', function () {
+                    modal_cadastro.show(0, function () {
+                        $('#txt_cliente').focus();
+                    });
+                })
+                .on('hidden.bs.modal', function () {
+                    modal_cadastro.hide().appendTo('body');
+                });
+            }
+
+            function criar_linha_grid(dados) {
+                var ret = '<tr data-id=' + dados.Id + '>' +
+                            '<td>' + dados.Id + '</td>' +
+                            '<td>' + dados.Nome + '</td>' +
+                            '<td>' + dados.Pedido + '</td>' +
+                            '<td>' + dados.Local + '</td>' +
+                            '<td>'+'$' + dados.Total + '</td>' +
+                            '<td>' +
+                                '<a class="btn btn-primary btn-alterar" role="button" style="margin-right: 4px"><i class="glyphicon glyphicon-pencil"></i> Alterar</a>' +
+                                '<a class="btn btn-danger btn-excluir role="button"><i class="glyphicon glyphicon-trash"></i> Excluir</a>' +
+                                '<a  id="printBy" onclick="imprimir()" class="btn btn-primary" role="button"><i class="glyphicon glyphicon-floppy-saved"></i> Imprimir</a>' +
+                            '</td>' +
+                    '</tr>';
+
+                return ret;
+            }
+
+            /*  MUDAR ESSA PARTE  */
+            $(document).on('change', '#id_cliente', function () {
+                // PEGAR A OPTION
+                var str = "";
+                $( "select option:selected" ).each(function() {
+                    str += $(this).attr('data-end') + " Nº";
+                    str += $(this).attr('data-num') + " - Bairro:";
+                    str += $(this).attr('data-bairro') + " - Cidade:";
+                    str += $(this).attr('data-cidade') + " - Complemento: ";
+                    str += $(this).attr('data-compl');
+                });
+                $( '#txt_local').val( str );
+             
+            })
+            /* ATÉ AQUI */
+
+            /*  Item de produto visor  */
+            $(document).on('change', '#id_product', function () {
+                // PEGAR A OPTION
+                var str = "";
+                $('.produtos:checked').each(function () {
+                    str += $(this).attr('data-nome') + "-"+"";
+                });
+                
+                $('#txt_item').val(str);
+
+            })
+            /* ATÉ AQUI */
+            
+            //Produtos
+            var c = 0;
+
+            $(document).on('click', '.produtos', function () {
+               
+                $('.produtos:checked').each(function () {
+                    var qtde = 1;
+                    c += parseInt($(this).attr('data-preco')) * qtde;
+                    
+                })
+                $('#txt_total').val(c);
+            })
+
+            $(document).on('click', '.produtoss', function () {
+
+                $('.produtos:checked').each(function () {
+                    var qtde = 1;
+                    c -= parseInt($(this).attr('data-preco')) * qtde;
+                    if (c < 0) {
+                        c = 0;
+                    }
+                })
+                $('#txt_total').val(c);
+            })
+
+            //Incluir
+            $(document).on('click', '#btn_incluir', function () {
+                abrir_form({ Id: 0, Nome: '',Pedido:'',Local:'',Total:'' });
+            })
+           //Alterar
+            .on('click', '.btn-alterar', function () {
+                var btn = $(this),
+                    id = btn.closest('tr').attr('data-id'),
+                    url = '@Url.Action("ObterPedidos", "Cadastro")',
+                    param = { 'id': id };
+
+                $.post(url, param, function (response) {
+                    if (response) {
+                        abrir_form(response);
+                    }
+                });
+            })
+            //Excluir
+           .on('click', '.btn-excluir', function () {
+               var btn = $(this),
+                   tr = btn.closest('tr'),
+                   id = tr.attr('data-id'),
+                   url = '@Url.Action("ExcluirPedidos", "Cadastro")',
+                   param = { 'id': id };
+
+               bootbox.confirm({
+                   message: "Confirma a exclusão da Categoria de Produto?",
+                   buttons: {
+                       confirm: {
+                           label: 'Sim',
+                           className: 'btn-success'
+                       },
+                       cancel: {
+                           label: 'Não',
+                           className: 'btn-danger'
+                       }
+                   },
+                   callback: function (result) {
+                       if (result) {
+                           $.post(url, param, function (response) {
+                               if (response) {
+                                   tr.remove();
+                               }
+                           });
+                       }
+                   }
+               });
+           })
+            //Confirmar
+            .on('click', '#btn_confirmar', function () {
+                var btn = $(this),
+                    url = '@Url.Action("SalvarPedidos", "Cadastro")',
+                   param = {
+                        Id: $('#txt_codigo').val(),
+                        Nome: $('#opt').attr('data-nome'),
+                        Pedido: $('#txt_item').val(),
+                        Local: $('#txt_local').val(),
+                        Total: $('#txt_total').val()
+                   };
+                $.post(url, param, function (response) {
+                    if (param.Id == 0) {
+                        var table = $('#grid_categoria').find('tbody'),
+                            linha = criar_linha_grid(response);
+
+                        table.append(linha);
+                    }
+                    else {
+                        var linha = $('#grid_categoria').find('tr[data-id=' + param.Id + ']').find('td');
+                        linha
+                            .eq(0).html(param.Id).end()
+                            .eq(1).html(param.Nome)
+                            .eq(2).html(param.Pedido)
+                            .eq(3).html(param.Local)
+                            .eq(4).html(param.Total);
+                    }
+
+                    $('#modal_cadastro').parents('.bootbox').modal('hide');
+                })
+            })
+            //alerta
+            $(document).ready(function () {
+
+                $('#btn_confirmar').click(function () {
+                    $('#myAlert').show('fade');
+
+                    setTimeout(function () {
+                        $('#myAlert').hide('fade');
+                    }, 2000);
+
+                })
+
+                $('#linkClose').click(function () {
+                    $('#myAlert').hide('fade');
+                })
+
+            })
+
+            //Impressao
+            function imprimir() {
+                var imprimiconteudo = document.getElementById('impressao').innerHTML;
+                    tela_impressao = window.open('about:blank');
+                    tela_impressao.document.write('<br/><h3 style="margin-bottom:-10px ;font-weight:bold">Pedido:</h3><br/><hr/><div style="max-width: 500px; margin: 0 auto;font-weight:bold" >' + imprimiconteudo + '</div>');
+                    tela_impressao.window.print();//abre janela de impressão
+                    tela_impressao.window.close();//fecha janela de impressão após imprimir ou cancelar
+                }
+            //Impressao Teste
+            function printBy(selector) {
+                var $print = $(selector)
+                    .clone()
+                    .addClass('print')
+                    .prependTo('body');
+
+                // Stop JS execution
+                window.print();
+
+                // Remove div once printed
+                $print.remove();
+            }
+            //atualiza a div
+            
+        </script>
+    }
+
+</body>
+
+</html>

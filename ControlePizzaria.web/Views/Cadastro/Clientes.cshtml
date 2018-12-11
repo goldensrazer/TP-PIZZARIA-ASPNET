@@ -1,0 +1,276 @@
+﻿
+@{
+    ViewBag.Title = "Clientes";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h3>Clientes Cadastrados</h3>
+    <hr />
+    <div id="cabecalho">
+        <a id="btn_incluir" class="btn btn-success" role="button">
+            <i class="glyphicon glyphicon-plus"></i> Incluir Cliente
+        </a>
+    </div>
+
+    <br />
+
+    <div>
+        <table id="grid_categoria" class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th>Numero</th>
+                    <th>Complemento</th>
+                    <th>Bairro</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Clientes in ViewBag.Clientes)
+                {
+                    <tr data-id="@Clientes.Id">
+                        <td>@Clientes.Id</td>
+                        <td>@Clientes.Nome</td>
+                        <td>@Clientes.Tel</td>
+                        <td>@Clientes.End</td>
+                        <td>@Clientes.Numr</td>
+                        <td>@Clientes.Compl</td>
+                        <td>@Clientes.Bairro</td>
+                        <td>@Clientes.Cidade</td>
+                        <td>
+                            <a class="btn btn-primary btn-alterar" role="button">
+                                <i class="glyphicon glyphicon-pencil"></i>
+                                Alterar
+                            </a>
+                            <a class="btn btn-danger btn-excluir" role="button">
+                                <i class="glyphicon glyphicon-trash"></i>
+                                Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div id="modal_cadastro" class="form-horizontal invisivel" role="dialog">
+        <fieldset>
+            <div class="row">
+                <div class="form-group">
+                    @Html.Label("txt_codigo", "Codigo", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-2">
+                        @Html.TextBox("txt_codigo", null, new { @class = "form-control", disabled = "true" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Nome", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_nome", null, new { @class = "form-control" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Telefone", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_tel", null, new { @class = "form-control" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Endereço", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_end", null, new { @class = "form-control" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Numero", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_numr", null, new { @class = "form-control" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Complemento", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_compl", null, new { @class = "form-control" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Cidade", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_cidade", null, new { @class = "form-control" })
+                    </div>
+                    <br>
+                    <br>
+                    @Html.Label("txt_nome", "Bairro", new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBox("txt_bairro", null, new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <div class="modal-footer">
+                            <a id="btn_sair" class="btn btn-default" role="button" data-dissmiss="modal">
+                                <i class="glyphicon glyphicon-remove"></i>
+                                Sair
+                            </a>
+                            <a id="btn_confirmar" class="btn btn-primary" role="button">
+                                <i class="glyphicon glyphicon-ok"></i>
+                                Salvar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    @section Scripts{
+        <script>
+            function abrir_form(dados) {
+                if (dados.Id > 0)
+                    $('#txt_codigo').val(dados.Id);
+                else
+                    $('txt_codigo').val('');
+
+                $('#txt_nome').val(dados.Nome);
+                $('#txt_tel').val(dados.Tel);
+                $('#txt_end').val(dados.End);
+                $('#txt_numr').val(dados.Numr);
+                $('#txt_compl').val(dados.Compl);
+                $('#txt_bairro').val(dados.Bairro);
+                $('#txt_cidade').val(dados.Cidade);
+
+                var modal_cadastro = $('#modal_cadastro');
+
+                bootbox.dialog({
+                    title: '@ViewBag.Title',
+                    message: modal_cadastro
+                })
+                .on('shown.bs.modal', function () {
+                    modal_cadastro.show(0, function () {
+                        $('#txt_nome').focus();
+                    });
+                })
+                .on('hidden.bs.modal', function () {
+                    modal_cadastro.hide().appendTo('body');
+                });
+            }
+
+            function criar_linha_grid(dados) {
+                var ret = '<tr data-id=' + dados.Id + '>' +
+                            '<td>' + dados.Id + '</td>' +
+                            '<td>' + dados.Nome + '</td>' +
+                            '<td>' + dados.Tel + '</td>' +
+                            '<td>' + dados.End + '</td>' +
+                            '<td>' + dados.Numr + '</td>' +
+                            '<td>' + dados.Compl + '</td>' +
+                            '<td>' + dados.Bairro + '</td>' +
+                            '<td>' + dados.Cidade + '</td>' +
+                            '<td>' +
+                                '<a class="btn btn-primary btn-alterar" role="button" style="margin-right: 4px"><i class="glyphicon glyphicon-pencil"></i> Alterar</a>' +
+                                '<a class="btn btn-danger btn-excluir role="button"><i class="glyphicon glyphicon-trash"></i> Excluir</a>' +
+                            '</td>' +
+                    '</tr>';
+
+                return ret;
+            }
+
+            $(document).on('click', '#btn_incluir', function () {
+                abrir_form({ Id: 0, Nome: '',Tel:'',End:'',Numr:'',Compl:'',Bairro:'',Cidade:'' });
+            })
+
+            .on('click', '.btn-alterar', function () {
+                var btn = $(this),
+                    id = btn.closest('tr').attr('data-id'),
+                    url = '@Url.Action("ObterClientes", "Cadastro")',
+                    param = { 'id': id };
+
+                $.post(url, param, function (response) {
+                    if (response) {
+                        abrir_form(response);
+                    }
+                });
+            })
+
+           .on('click', '.btn-excluir', function () {
+               var btn = $(this),
+                   tr = btn.closest('tr'),
+                   id = tr.attr('data-id'),
+                   url = '@Url.Action("ExcluirClientes", "Cadastro")',
+                   param = { 'id': id };
+
+               bootbox.confirm({
+                   message: "Confirma a exclusão da Categoria de Produto?",
+                   buttons: {
+                       confirm: {
+                           label: 'Sim',
+                           className: 'btn-success'
+                       },
+                       cancel: {
+                           label: 'Não',
+                           className: 'btn-danger'
+                       }
+                   },
+                   callback: function (result) {
+                       if (result) {
+                           $.post(url, param, function (response) {
+                               if (response) {
+                                   tr.remove();
+                               }
+                           });
+                       }
+                   }
+               });
+           })
+            .on('click', '#btn_confirmar', function () {
+                var btn = $(this),
+                    url = '@Url.Action("SalvarClientes", "Cadastro")',
+                    param = {
+                        Id: $('#txt_codigo').val(),
+                        Nome: $('#txt_nome').val(),
+                        Tel: $('#txt_tel').val(),
+                        End: $('#txt_end').val(),
+                        Numr: $('#txt_numr').val(),
+                        Compl: $('#txt_compl').val(),
+                        Bairro: $('#txt_bairro').val(),
+                        Cidade: $('#txt_cidade').val()
+                    };
+                $.post(url, param, function (response) {
+                    if (param.Id == 0) {
+                        var table = $('#grid_categoria').find('tbody'),
+                            linha = criar_linha_grid(response);
+
+                        table.append(linha);
+                    }
+                    else {
+                        var linha = $('#grid_categoria').find('tr[data-id=' + param.Id + ']').find('td');
+                        linha
+                            .eq(0).html(param.Id).end()
+                            .eq(1).html(param.Nome)
+                            .eq(2).html(param.Tel)
+                            .eq(3).html(param.End)
+                            .eq(4).html(param.Numr)
+                            .eq(5).html(param.Compl)
+                            .eq(6).html(param.Bairro)
+                            .eq(7).html(param.Cidade);
+                    }
+
+                    $('#modal_cadastro').parents('.bootbox').modal('hide');
+                })
+            })
+        </script>
+    }
+
+</body>
+</html>
+
+
